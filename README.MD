@@ -1,7 +1,7 @@
 compile test program
 
 
-gcc test.c -lpthread -g -w
+gcc test.c -lpthread -lunwind -g -w
 
 
 Macros
@@ -14,7 +14,7 @@ Macros
 
 	_start_trace_
 	_stop_trace_
-	
+
 
 	_start_time_trace_
 	_stop_time_trace_
