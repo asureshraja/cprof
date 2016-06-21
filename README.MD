@@ -1,6 +1,6 @@
-compile test program
+Simply add cprof.h to you source file and start using this macros.
 
-
+Compile test program
 gcc test.c -lpthread -lunwind -g -w
 
 
